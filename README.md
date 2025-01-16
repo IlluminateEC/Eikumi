@@ -21,8 +21,8 @@ The config should contain a map of guild IDs to maps of channel types to channel
 ```json
 {
     "$$GUILD_ID$$": {
-        "transparency": $$CHANNEL_ID$$,
-        "membership": $$CHANNEL_ID$$,
+        "transparency_channel": $$CHANNEL_ID$$,
+        "membership_channel": $$CHANNEL_ID$$,
     }
 }
 ```
